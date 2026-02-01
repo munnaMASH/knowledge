@@ -10,8 +10,8 @@
 }
 nav{
      /*max-width: 1100px;*/
-     width: 1600px;
-     height: 92px;
+     /*width: 1600px;
+     height: 92px;*/
     /*border: 1px solid red;
    margin: 0 auto;*/
     display:flex;
@@ -33,7 +33,7 @@ nav li a{
     line-height: 152%;
     color: #000000;
 }
-button{
+.b{
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
@@ -41,4 +41,115 @@ button{
     padding: 12px 16px 12px 16px;
     border-radius: 4px;
     background:#30B868;
+}
+
+.banner-content{
+   /* border: 1px solid red;*/
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 120px 134px 120px;
+}
+/*.banner-content h2{
+    color:#30B868;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 19px;
+    /*border: 1px solid;
+    border-radius: 1000px;
+    width: 229px;
+    height: 35px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 12px;
+
+    background-color: #FFFFFF;
+    display: inline-flex;
+    align-items: center;
+    gap:6px;
+}*/
+.status-badge{
+    display: inline-flex;
+    align-items: center;
+    gap:6px;
+    padding: 8px 12px;  
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    font-style: Medium;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color:#30B868;
+
+}
+.dot{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background:#30B868;
+}
+.k{
+    font-size: 72px;
+    font-weight: 700px;
+    font-style:Bold;
+    line-height: 84px;
+    color:#FFFFFF;
+    margin-bottom: 16px;
+} 
+span{
+    color:#30B868;
+}
+#banner{
+    background-image: url(../assets/hero-bg.png); 
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+}
+.h{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+.btn{
+   display: flex;
+   justify-content: center;
+    gap:16px;
+    align-items: center;
+    /*border: 1px solid black;
+    width: 465px;
+    height: 52px;*/
+   /* margin: 0 447.5px;*/
+   margin: 0 auto;
+    font-size: 16px;
+    font-weight: 600px;
+   line-height: auto;
+}
+.t{
+    /*width: 189px;
+    height: 19px;*/
+    padding: 16.5px 16px;
+    background-color: #30B868 ;
+    color: #FFFFFF;
+    font-style: bold;
+    border-radius: 4px;
+}
+.n{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.l{
+    padding: 16.5px  16px;
+    font-style: bold;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: transparent;
+    color:#FFFFFF;
+    gap:16px;
+}
+.fa-solid{
+margin-right: 16px;
 }
