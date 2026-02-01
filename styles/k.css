@@ -9,9 +9,36 @@
   font-optical-sizing: auto;
 }
 nav{
-    width: 71%;
-    max-width: 1140px;
-    border: 1px solid red;
-    margin: 0 auto;
-    
+     /*max-width: 1100px;*/
+     width: 1600px;
+     height: 92px;
+    /*border: 1px solid red;
+   margin: 0 auto;*/
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px 16px 120px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+nav li a{
+    text-decoration: none;
+    margin: 0 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 152%;
+    color: #000000;
+}
+button{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    background:#30B868;
 }
