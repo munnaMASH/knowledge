@@ -79,8 +79,6 @@ nav li a{
     font-size: 16px;
     line-height: 19px;
     color:#30B868;
-    
-
 }
 .dot{
     width: 16px;
@@ -314,4 +312,54 @@ margin-right: 16px;
 }
 .pt{
     padding-bottom: 80px;
+}
+.footer{
+    margin: 0 auto;
+    /*border: 1px solid rebeccapurple;*/
+    text-align: center;
+    background: #001931;
+
+}
+.f-img{
+    max-width: 139px;
+}
+.footer-container{
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 120px 0 120px;  
+    margin-bottom: 79.5px;
+}
+.f-section li{
+   list-style-type: none;
+   max-width: 20px;
+   border-radius: 50%;
+   background: #FFFFFF;
+
+}
+.f-section ul{
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    padding-right: 128px;
+}
+.f-section h2{
+    padding-right: 107px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+hr{
+    border: 1px solid #E5E7EB;
+    opacity: 0.2;
+    margin: 0 120px 30.5px 120px;
+
+}
+.footer p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FAFAFA;
+    padding-bottom: 30px;
 }
