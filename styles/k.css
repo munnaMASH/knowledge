@@ -126,12 +126,13 @@ span{
    line-height: auto;
 }
 .t{
-    /*width: 189px;
+   /* width: 189px;
     height: 19px;*/
     padding: 16.5px 16px;
     background-color: #30B868 ;
     color: #FFFFFF;
-    font-style: bold;
+    font-weight: 600px;
+    font-size: 16px;
     border-radius: 4px;
 }
 .n{
@@ -222,7 +223,7 @@ margin-right: 16px;
 .b-container{
     width: 85%;
     max-width: 1360px;
-   /* border: 1px solid red;*/gi
+   /* border: 1px solid red;*/
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -270,4 +271,47 @@ margin-right: 16px;
 .icon-text{
     display: fleX;
     gap: 6px;
+}
+.s-btn{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 16.5px 16px;
+        background-color: #30B868 ;
+        color: #FFFFFF;
+        font-weight: 600px;
+        font-size: 16px;
+        border-radius: 4px;
+        text-align: center;
+        margin: 0 543px;
+        margin-bottom: 16px;
+}
+.cta{
+    text-align: center;
+}
+.cta-container{
+    max-width: 1360px;
+    max-height: 384px;
+    margin: 2px 120px 120px 120px;
+    /*border: 1px solid rebeccapurple;*/
+    text-align: center;
+    background-color: #F7F6F2;
+}
+.cta-container h2{
+    font-style: Bold;
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    padding-top: 80px;
+    margin-bottom: 16px;
+}
+.cta-container p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.pt{
+    padding-bottom: 80px;
 }
